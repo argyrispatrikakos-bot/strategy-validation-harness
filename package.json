@@ -1,0 +1,14 @@
+{
+  "name": "strategy-validation-harness",
+  "version": "1.0.0",
+  "description": "A reproducible test rig for deciding whether a trading edge is real - and a way to check that the rig itself works. No dependencies.",
+  "type": "module",
+  "main": "run.mjs",
+  "scripts": {
+    "start": "node run.mjs",
+    "test": "node test.mjs"
+  },
+  "keywords": ["backtesting", "validation", "out-of-sample", "overfitting", "bootstrap", "quantitative-research"],
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
